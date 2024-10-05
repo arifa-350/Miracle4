@@ -1,0 +1,601 @@
+#html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Chronicles of Exoplanets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">Chronicles of Exoplanets</h1>
+
+        <!--Search Section-->
+        <div class="search-section">
+            <label for="Search">What are Exoplanets?</label>
+            <input type="text"
+         id="search"placeholder="Search...">
+        </div>
+        <!--Exoplanets-->
+        <h2 class="title">What are Exoplanets?</h2>
+        
+        
+        <p>An exoplanet is any planet beyond our solar system. Most orbit other stars, but free-floating exoplanets, called rogue planets, orbit the galactic center and are untethered to any star.
+            <p><strong>Overview</strong></p>
+            <p>Most of the exoplanets discovered so far are in a relatively small region of our galaxy, the Milky Way. 
+                We know from NASA’s Kepler Space Telescope that there are more planets than stars in the galaxy.</p>
+            
+            <p>By measuring exoplanets’ sizes (diameters) and masses (weights), we can see compositions ranging from very rocky (like Earth and Venus) to very gas-rich (like Jupiter and Saturn).
+            Exoplanets are made up of elements similar to those of the planets in our solar system, but their mixes of those elements may differ. Some planets may be dominated by water or ice, while others are dominated by iron or carbon.
+            We’ve identified lava worlds covered in molten seas, puffy planets the density of Styrofoam and dense cores of planets still orbiting their stars.</p>
+
+        <!--Exoplanets Picture Section-->
+        <div class="photo-container">
+            <div class="photo">
+                <h3>Pictures of some Exoplanets</h3>
+            <img src="https://images-assets.nasa.gov/image/PIA15258/PIA15258~large.jpg?w=1920&h=853&fit=clip&crop=faces%2Cfocalpoint"
+            alt="Exoplanets" class="exoplanet-img">
+            </div>
+            
+            
+        </div>
+
+            <!--Explore Section-->
+            
+            <div class="explore-section">
+                <h2 class="title">Exoplanets near our Solar System</h2>
+                <p>Let's Explore Together!</p>
+            
+                <div class="planet-card">
+                    <h3>Kepler-186f</h3>
+                    <p>
+                        Kepler-186 f is a super Earth exoplanet that orbits an M-type star. 
+                        Its mass is 1.71 Earths, it takes 129.9 days to complete one orbit of its star, and is 0.432 AU from its star. 
+                        Its discovery was announced in 2014.
+                    </p>
+                    
+                    <div class="planet-details">
+                        <p><strong>Planet Radius:</strong> 1.17 x Earth</p>
+                        <p><strong>Planet Type:</strong> Super Earth</p>
+                        <p><strong>Discovery Method:</strong> Transit</p>
+                        <p><strong>Planet Mass:</strong> 1.71 Earths</p>
+                        <p><strong>Discovery Date:</strong> 2014</p>
+                        <p><strong>Orbital Radius:</strong> 0.432 AU</p>
+                        <p><strong>Orbital Period:</strong> 129.9 days</p>
+                        <p><strong>Eccentricity:</strong> 0.04</p>
+                    </div>
+                </div>
+            
+                <div class="photo-container">
+                    <div class="photo">
+                      <img src="https://science.nasa.gov/wp-content/uploads/2023/09/PIA17999S.jpg?w=768&format=webp" alt="Kepler-186f" class="exoplanet-img">
+                      <a href="https://science.nasa.gov/exoplanet-catalog/kepler-186-f/" target="_blank">Learn more</a>
+                  </div>
+              </div>
+            </div> 
+            
+            <div class="planet-card">
+                <h3>55 Canceri e</h3>
+                <p>
+                    Also called Janssen, 55 Cancri e is a super-Earth, a rocky planet significantly larger than Earth but smaller than Neptune. 
+                    It orbits its star at a distance of only 1.4 million miles (0.015 astronomical units), completing one full orbit in less than 18 hours. 
+                    (Mercury is 25 times farther from the Sun than 55 Cancri e is from its star.) The system, which also includes four large gas-giant planets, 
+                    is located about 41 light-years from Earth in the constellation Cancer. This super-hot world is covered in a global ocean of lava and has sparkling skies.
+                </p>
+            
+                <div class="planet-details">
+                    <p><strong>Planet Radius:</strong> 1.875 x Earth</p>
+                    <p><strong>Planet Type:</strong> Super Earth</p>
+                    <p><strong>Discovery Method:</strong> Radial Velocity</p>
+                    <p><strong>Planet Mass:</strong> 7.99 Earths</p>
+                    <p><strong>Discovery Date:</strong> 2004</p>
+                    <p><strong>Orbital Radius:</strong> 0.01544 AU</p>
+                    <p><strong>Orbital Period:</strong> 0.7 days</p>
+                    <p><strong>Eccentricity:</strong> 0.05</p>
+                </div>
+            </div>
+            
+            <div class="photo-container">
+                <div class="photo">
+                <img src="https://science.nasa.gov/wp-content/uploads/2024/05/webb-stsci-01hwqz51tykxttfapc9rq0fnje.png?w=768&format=webp" 
+                alt="55 Canceri e" 
+                class="exoplanet-img">  
+                <a href="https://science.nasa.gov/missions/webb/nasas-webb-hints-at-possible-atmosphere-surrounding-rocky-exoplanet/"
+                target="_blank">Learn more</a>
+            </div>
+            </div>
+            
+            <div class="planet-card">
+                <h3>PSR B1257+12 b (Draugr)</h3>
+                <p>
+                    PSR B1257+12 b, alternatively designated PSR B1257+12 A and named Draugr, is an extrasolar planet located approximately 2,300 light-years (710 pc) away in the constellation of Virgo. 
+                    It orbits the pulsar Lich, making it part of a dead stellar system. Draugr is about twice as massive as the Moon and is currently the least massive known planet with an accurately determined mass.
+                </p>
+                
+                <h4>Discovery</h4>
+                <ul>
+                    <li><strong>Discovered by:</strong> Aleksander Wolszczan, Maciej Konacki</li>
+                    <li><strong>Discovery site:</strong> United States</li>
+                    <li><strong>Discovery date:</strong> April 22, 1994</li>
+                    <li><strong>Detection method:</strong> Pulsar Timing</li>
+                </ul>
+                
+                <h4>Orbital Characteristics</h4>
+                <ul>
+                    <li><strong>Semi-major axis:</strong> 0.19 AU (28,000,000 km)</li>
+                    <li><strong>Eccentricity:</strong> 0.0</li>
+                    <li><strong>Orbital period:</strong> 25.262 ± 0.003 days</li>
+                    <li><strong>Inclination:</strong> 50° (assumed)</li>
+                    <li><strong>Time of periastron:</strong> 2,449,765.6 ± 0.2</li>
+                </ul>
+                
+                <h4>Physical Characteristics</h4>
+                <ul>
+                    <li><strong>Mass:</strong> 0.020 ± 0.002 ME</li>
+                    <li><strong>Temperature:</strong> 266 K (−7 °C; 19 °F)</li>
+                </ul>
+                <div class="photo-container">
+                    <div class="photo">
+                <img src="https://science.nasa.gov/wp-content/uploads/2023/09/psr-b1257-12b.jpg?w=768&format=webp" 
+                    alt="Draugr" class="exoplanet-img">
+                    <a href="https://eyes.nasa.gov/apps/exo/?destinations=/alien-worlds/strange-new-worlds/#/planet/PSR_B1257+12_b"
+                    target="_blank">Learn more</a>
+                </div>
+                </div>
+            
+
+            <div class="planet-card">
+                <h3>TRAPPIST-1 d</h3>
+                <p>
+                    TRAPPIST-1 d is a small exoplanet, with about 40% of Earth's mass, located on the inner edge of the habitable zone of the ultracool dwarf star TRAPPIST-1. This star is situated 40.7 light-years (12.5 parsecs) away from Earth in the constellation of Aquarius. 
+                    The planet was discovered using the transit method, with its first signs appearing in 2016. Further details about the planet's characteristics emerged in the following years.
+                </p>
+                
+                <p>
+                    TRAPPIST-1 d is the second-least massive planet in its system and likely has a compact, hydrogen-poor atmosphere, similar to Venus, Earth, or Mars. Receiving only 4.3% more sunlight than Earth, it is located on the inner edge of the habitable zone. The planet likely has a volatile layer, possibly consisting of atmosphere, oceans, and ice. However, a 2018 study from the University of Washington suggested that it might have a Venus-like, uninhabitable atmosphere.
+                </p>
+                
+                <p>
+                    TRAPPIST-1 d is also considered an eyeball planet candidate, with a narrow band of water between its hot day side and icy night side, as illustrated below.
+                </p>
+                
+                <h4>Planetary Characteristics</h4>
+                <ul>
+                    <li><strong>Planet Type:</strong> Terrestrial</li>
+                    <li><strong>Planet Radius:</strong> 0.788 × Earth</li>
+                    <li><strong>Planet Mass:</strong> 0.388 × Earth</li>
+                    <li><strong>Orbital Radius:</strong> 0.02227 AU</li>
+                    <li><strong>Orbital Period:</strong> 4 days</li>
+                    <li><strong>Eccentricity:</strong> 0.01</li>
+                    <li><strong>Discovery Method:</strong> Transit</li>
+                    <li><strong>Discovery Date:</strong> 2016</li>
+                </ul>
+                
+                <div class="photo-container">
+                    <div class="photo">
+                <img src="https://science.nasa.gov/wp-content/uploads/2023/06/trappist-1-jpg.webp?w=768&format=webp"
+                 alt="TRAPPIST-1 d" 
+                 class="exoplanet-img">
+                <a href="https://science.nasa.gov/universe/10-things-all-about-trappist-1/"
+                target="_blank">Learn more</a>
+            </div>
+            </div>
+            
+        
+            
+            <div class="planet-card">
+                <h3>GJ 273 b</h3>
+                <p>
+                    GJ 273 b is a super-Earth exoplanet that orbits an M-type star. It has a mass of 2.89 Earths and takes 18.6 days to complete one orbit around its star, located 0.091101 AU away. The discovery of GJ 273 b was announced in 2017, and it was detected using the radial velocity method.
+                </p>
+                
+                <h4>Planetary Characteristics</h4>
+                <ul>
+                    <li><strong>Planet Type:</strong> Super Earth</li>
+                    <li><strong>Planet Radius:</strong> 1.51 × Earth (estimate)</li>
+                    <li><strong>Planet Mass:</strong> 2.89 × Earth</li>
+                    <li><strong>Orbital Radius:</strong> 0.091101 AU</li>
+                    <li><strong>Orbital Period:</strong> 18.6 days</li>
+                    <li><strong>Eccentricity:</strong> 0.1</li>
+                    <li><strong>Discovery Method:</strong> Radial Velocity</li>
+                    <li><strong>Discovery Date:</strong> 2017</li>
+                </ul>
+                <div class="photo-container"></div>
+                    <div class="photo">
+                    <img src="https://www.nasa.gov/wp-content/uploads/2023/05/stsci-01gysy4shv3hdb6v912zbsgs46.jpg" 
+                    alt="GJ 273 b" 
+                    class="exoplanet-img">
+                </div>
+                </div>
+                
+            
+
+                <div class="planet-card">
+                    <h3>51 Pegasi b (Dimidium)</h3>
+                    <p>
+                        51 Pegasi b, officially named Dimidium (/dɪˈmɪdiəm/), is an extrasolar planet located approximately 50 light-years (15 parsecs) away in the constellation Pegasus. It was the first exoplanet discovered orbiting a main-sequence star, the Sun-like 51 Pegasi, marking a major breakthrough in astronomy. Dimidium is the prototype for a class of planets known as hot Jupiters.
+                    </p>
+                    
+                    <h4>Discovery</h4>
+                    <ul>
+                        <li><strong>Discovered by:</strong> Michel Mayor and Didier Queloz</li>
+                        <li><strong>Discovery site:</strong> OHP, France</li>
+                        <li><strong>Discovery date:</strong> 6 October 1995</li>
+                        <li><strong>Detection method:</strong> Radial Velocity (ELODIE)</li>
+                    </ul>
+                
+                    <h4>Orbital Characteristics</h4>
+                    <ul>
+                        <li><strong>Aphelion:</strong> 0.0534 AU (7,990,000 km)</li>
+                        <li><strong>Perihelion:</strong> 0.0520 AU (7,780,000 km)</li>
+                        <li><strong>Semi-major axis:</strong> 0.0527 ± 0.0030 AU (7,880,000 ± 450,000 km)</li>
+                        <li><strong>Eccentricity:</strong> 0.013 ± 0.012</li>
+                        <li><strong>Orbital period:</strong> 4.230785 ± 0.000036 days (101.5388 hours)</li>
+                        <li><strong>Average orbital speed:</strong> 136 km/s</li>
+                    </ul>
+                
+                    <h4>Physical Characteristics</h4>
+                    <ul>
+                        <li><strong>Mean radius:</strong> 1.9 ± 0.3 RJ</li>
+                        <li><strong>Mass:</strong> ≥ 0.472 ± 0.039 MJ</li>
+                        <li><strong>Temperature:</strong> 1284 ± 19 K</li>
+                        <li><strong>Atmospheric composition:</strong> Traces of water were discovered in 2017.</li>
+                    </ul>
+                
+                    <p>
+                        In 2019, the Nobel Prize in Physics was awarded, in part, for the discovery of 51 Pegasi b.
+                    </p>
+                </div>
+                
+                <div class="photo-container">
+                    <div class="photo">
+                    <img src="https://science.nasa.gov/wp-content/uploads/2023/09/2_planet_profile_51_pegasi_b_3_2.jpg?w=768&format=webp" 
+                    alt="Artist's impression of 51 Pegasi b" 
+                    class="exoplanet-img">
+                </div>
+            </div>
+           
+                
+
+                     
+
+                    <div class="planet-card">
+                        <h3>Proxima Centauri b</h3>
+                        <p>
+                            At only four light-years away, Proxima Centauri b is our closest known exoplanet neighbor. It is classified as a super-Earth exoplanet that orbits an M-type star, Proxima Centauri.
+                        </p>
+                        
+                        <h4>Key Characteristics</h4>
+                        <ul>
+                            <li><strong>Mass:</strong> 1.27 Earths</li>
+                            <li><strong>Orbital Period:</strong> 11.2 days</li>
+                            <li><strong>Distance from Star:</strong> 0.0485 AU</li>
+                            <li><strong>Discovery Date:</strong> 2016</li>
+                        </ul>
+                    
+                        <h4>Habitable Zone and Radiation</h4>
+                        <p>
+                            Proxima b lies in the habitable zone of its star, where conditions could allow for liquid water to exist. However, it encounters bouts of extreme ultraviolet radiation that are hundreds of times greater than what Earth receives from the Sun. This radiation generates enough energy to strip away not only the lightest molecules, like hydrogen, but also heavier elements such as oxygen and nitrogen over time.
+                        </p>
+                    
+                        <h4>Considerations for Habitability</h4>
+                        <p>
+                            While Proxima b’s orbit is in the habitable zone, several factors affect its potential for habitability:
+                        </p>
+                        <ul>
+                            <li>The actual presence of water on the planet.</li>
+                            <li>Whether an atmosphere can survive at its orbit.</li>
+                            <li>Atmospheres are essential for life as we know it, allowing for climate regulation, maintaining surface pressure suitable for liquid water, shielding from hazardous space weather, and supporting the chemical building blocks of life.</li>
+                        </ul>
+                        <div class="photo-container">
+                            <div class="photo">
+                        <img src="https://science.nasa.gov/wp-content/uploads/2023/04/potw1343a-jpg.webp?w=768&format=webp"
+                         alt="Proxima Centauri b"
+                          class="exoplanet-img">
+                            </div>
+                    </div>
+
+<!--Quiz Section-->
+    <div class="quiz-container">
+        <h1>Exoplanet Quiz</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <p>1. What is an exoplanet?</p>
+                <div class="options">
+                    <input type="radio" name="q1" value="a"> A planet in our solar system<br>
+                    <input type="radio" name="q1" value="b"> A planet outside our solar system<br>
+                    <input type="radio" name="q1" value="c"> A moon orbiting another planet<br>
+                </div>
+            </div>
+            <div class="question">
+                <p>2. Which was the first exoplanet discovered?</p>
+                <div class="options">
+                    <input type="radio" name="q2" value="a"> Proxima Centauri b<br>
+                    <input type="radio" name="q2" value="b"> 51 Pegasi b<br>
+                    <input type="radio" name="q2" value="c"> Kepler-22b<br>
+                </div>
+            </div>
+            <div class="question">
+                <p>3. What is the habitable zone?</p>
+                <div class="options">
+                    <input type="radio" name="q3" value="a"> The region where water can exist in liquid form<br>
+                    <input type="radio" name="q3" value="b"> The region closest to a star<br>
+                    <input type="radio" name="q3" value="c"> The coldest part of a solar system<br>
+                </div>
+            </div>
+            <div class="question">
+                <p>4. How are most exoplanets detected?</p>
+                <div class="options">
+                    <input type="radio" name="q4" value="a"> Through direct imaging<br>
+                    <input type="radio" name="q4" value="b"> By observing the transit method<br>
+                    <input type="radio" name="q4" value="c"> By studying radio waves<br>
+                </div>
+            </div>
+            <div class="question">
+                <p>5. Which space telescope is famous for discovering thousands of exoplanets?</p>
+                <div class="options">
+                    <input type="radio" name="q5" value="a"> Hubble Space Telescope<br>
+                    <input type="radio" name="q5" value="b"> Kepler Space Telescope<br>
+                    <input type="radio" name="q5" value="c"> James Webb Space Telescope<br>
+                </div>
+            </div>
+            <div class="question">
+                <p>6. What type of exoplanet is considered a “hot Jupiter”?</p>
+                <div class="options">
+                    <input type="radio" name="q6" value="a"> A gas giant close to its star<br>
+                    <input type="radio" name="q6" value="b"> A rocky planet with high temperatures<br>
+                    <input type="radio" name="q6" value="c"> A small ice planet far from its star<br>
+                </div>
+            </div>
+            <div class="question">
+                <p>7. What is Proxima Centauri b?</p>
+                <div class="options">
+                    <input type="radio" name="q7" value="a"> A planet in the Milky Way’s core<br>
+                    <input type="radio" name="q7" value="b"> An exoplanet orbiting the nearest star to Earth<br>
+                    <input type="radio" name="q7" value="c"> A moon of Jupiter<br>
+                </div>
+            </div>
+            <div class="question">
+                <p>8. What does the term “super-Earth” refer to?</p>
+                <div class="options">
+                    <input type="radio" name="q8" value="a"> A planet larger than Earth but smaller than Neptune<br>
+                    <input type="radio" name="q8" value="b"> A planet exactly like Earth<br>
+                    <input type="radio" name="q8" value="c"> A star that is similar to the Sun<br>
+                </div>
+            </div>
+            <div class="question">
+                <p>9. What is the importance of studying exoplanets?</p>
+                <div class="options">
+                    <input type="radio" name="q9" value="a"> To find planets suitable for human colonization<br>
+                    <input type="radio" name="q9" value="b"> To understand planet formation and the potential for life elsewhere<br>
+                    <input type="radio" name="q9" value="c"> To locate new moons<br>
+                </div>
+            </div>
+            <div class="question">
+                <p>10. Which method uses the gravitational tug of a planet on its star to detect exoplanets?</p>
+                <div class="options">
+                    <input type="radio" name="q10" value="a"> Direct imaging<br>
+                    <input type="radio" name="q10" value="b"> Radial velocity method<br>
+                    <input type="radio" name="q10" value="c"> Gravitational lensing<br>
+                </div>
+            </div>
+            <button type="button" class="submit-btn" onclick="checkAnswers()">Submit</button>
+        </form>
+
+        <div class="result" id="result"></div>
+    </div>
+
+
+
+                     
+
+
+
+<!--Footer Section-->
+<footer>
+    <p>Thank you for staying with us for a while. See you again with a new topic.</p>
+</footer>
+
+
+</body>
+</html>
+
+
+
+
+#css
+
+* {
+    margin: 1rem;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.floating-bar {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+
+}
+
+.floating-bar::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 10px;
+    background-color: currentColor;
+}
+ 
+  
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(156, 219, 219);
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.1);
+}
+
+ h1 {
+    margin-bottom: 30px;
+    text-align: center;
+
+ }
+
+ .main-title {
+    color: #6d0ddb; /* Change this to any color */
+    font-size: 36px; /* Optional: Change the font size if needed */
+}
+
+  h2, h3 {
+    margin-bottom: 15px;
+}
+
+  .title {
+    color: brown;
+  }
+
+ p {
+    margin-bottom: 20px;
+ }
+
+.search-section, .question-section {
+    margin-bottom: 20px;
+}
+
+.photo-container {
+    perspective: 1000px; /* Adds perspective to the 3D effect */
+}
+
+.photo {
+    width: 600px;
+    height: auto;
+    transition: transform 0.5s ease; /* Smooth transition */
+}
+
+.exoplanet-img {
+    width: 100%;
+    height: auto;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Adds shadow to enhance the 3D effect */
+    transform-style: preserve-3d;
+    transform: rotateY(0deg); /* Initial rotation for the image */
+    transition: transform 0.6s ease-in-out; /* Smooth transition for 3D rotation */
+}
+
+.photo:hover .exoplanet-img {
+    transform: rotateY(25deg); /* Rotates the image when hovered */
+} 
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.picture-section img, .planet-card
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.planet-card {
+    margin-bottom: 20px;
+}
+
+
+
+ .quiz-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        .question {
+            margin-bottom: 15px;
+        }
+        .options input {
+            margin-right: 10px;
+        }
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+ 
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-style: italic;
+    text-decoration-color: blue;
+}
+
+#JavaScript
+
+function searchFunction() {
+        let input = document.getElementById('search-input').value.toLowerCase();
+        let items = document.querySelectorAll('#search-results li');
+        
+        items.forEach(item => {
+            if (item.textContent.toLowerCase().includes(input)) {
+                item.style.display = '';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    }
+
+function checkAnswers() {
+    const answers = {
+        q1: 'b',
+        q2: 'b',
+        q3: 'a',
+        q4: 'b',
+        q5: 'b',
+        q6: 'a',
+        q7: 'b',
+        q8: 'a',
+        q9: 'b',
+        q10: 'b'
+    };
+
+    let score = 0;
+    const form = document.getElementById('quiz-form');
+    const resultDiv = document.getElementById('result');
+
+    for (let i = 1; i <= 10; i++) {
+        const question = 'q' + i;
+        const userAnswer = form[question].value; // Access user's selected answer
+        if (userAnswer === answers[question]) {
+            score++;
+        }
+    }
+
+    resultDiv.innerHTML = You scored ${score} out of 10!;
+}
